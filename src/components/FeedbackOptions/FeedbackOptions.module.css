@@ -13,7 +13,7 @@
   color: white;
   cursor: pointer;
   border-radius: 15px;
-
+  -webkit-tap-highlight-color: transparent;
 }
 
 .good {
@@ -31,7 +31,6 @@
 .good:hover {
   background-color: #35ee3b;
   scale: 1.2;
-  
 }
 
 .neutral:hover {
