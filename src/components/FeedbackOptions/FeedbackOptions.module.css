@@ -1,0 +1,51 @@
+.optionsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.optionButton {
+  padding: 10px 20px;
+  font-size: 20px;
+  width: 120px;
+  height: 50px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 15px;
+
+}
+
+.good {
+  background-color: #58ce5c;
+}
+
+.neutral {
+  background-color: #ffc107;
+}
+
+.bad {
+  background-color: #f44336;
+}
+
+.good:hover {
+  background-color: #35ee3b;
+  scale: 1.2;
+  
+}
+
+.neutral:hover {
+  background-color: #f5ca0a;
+  scale: 1.2;
+}
+
+.bad:hover {
+  background-color: #e02619;
+  scale: 1.2;
+}
+@media (max-width: 420px) {
+  .optionsContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
