@@ -10,7 +10,7 @@ const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
     const greenIntensity = (positivePercentage - 50) / 50;
     bgColor = `rgba(${255 * (1 - greenIntensity)}, 255, 0, 1)`;
   } else {
-    // Interpolare între roșu și galben pe măsură ce procentajul crește de la 0% la 50%
+    // Interpolare între roșu și galben pe măsură ce procentajul creste de la 0% la 50%
     const yellowIntensity = positivePercentage / 50;
     bgColor = `rgba(255, ${255 * yellowIntensity}, 0, 1)`;
   }
